@@ -42,9 +42,7 @@ This project simulates a **retail execution analytics dashboard** designed for m
 * Measures include **On-Shelf Compliance %, Planogram Compliance %, Stockout Rate %, Sales Velocity**, calculated with **DAX**
 * Drill-through functionality for operational decision-making
 
-**Purpose & Value**
+**Insights**
+*Analysis shows that West region sales have higher velocity but lower planogram compliance, suggesting operational focus areas
 
-* Demonstrates **retail analytics literacy**
-* Shows ability to design **actionable dashboards for executives and field operations**
-* Highlights **data modeling, KPI calculation, and interactive reporting** skills
 
