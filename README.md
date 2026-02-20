@@ -43,6 +43,11 @@ This project simulates a **retail execution analytics dashboard** designed for m
 * Drill-through functionality for operational decision-making
 
 **Insights**
-*Analysis shows that West region sales have higher velocity but lower planogram compliance, suggesting operational focus areas
+* West region demonstrates higher Sales Velocity but slightly lower Planogram Compliance, indicating strong demand but potential execution gaps.
 
+• Certain cities show consistent stockout flags despite acceptable execution scores, suggesting replenishment or supply chain misalignment.
+
+• Seasonal trends indicate peak sales velocity in Q4, requiring proactive inventory planning.
+
+• Drill-through analysis allows operational managers to identify underperforming stores and prioritize field support.
 
