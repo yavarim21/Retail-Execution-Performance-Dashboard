@@ -3,6 +3,11 @@
 ---
 
 # 📊 Retail Execution Performance Dashboard
+**Business Value**
+This dashboard supports:
+• Operations teams in monitoring compliance and execution quality
+• Leadership in tracking KPI trends and performance gaps
+• System administrators in maintaining data integrity across locations
 **Tools Used:**
 -Power BI (Version 2025)
 -DAX for Calculation
@@ -50,4 +55,14 @@ This project simulates a **retail execution analytics dashboard** designed for m
 • Seasonal trends indicate peak sales velocity in Q4, requiring proactive inventory planning.
 
 • Drill-through analysis allows operational managers to identify underperforming stores and prioritize field support.
+
+**Business Value**
+
+This dashboard supports:
+
+• Operations teams in monitoring execution quality and compliance  
+• Leadership in tracking KPI trends and identifying performance gaps  
+• Data and systems administrators in maintaining data integrity across locations  
+• Faster decision-making through structured, drill-down analytics
+چرا این ترتیب مهمه؟
 
