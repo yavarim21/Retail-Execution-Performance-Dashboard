@@ -64,5 +64,4 @@ This dashboard supports:
 • Leadership in tracking KPI trends and identifying performance gaps  
 • Data and systems administrators in maintaining data integrity across locations  
 • Faster decision-making through structured, drill-down analytics
-چرا این ترتیب مهمه؟
 
