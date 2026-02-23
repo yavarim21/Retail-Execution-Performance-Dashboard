@@ -1,0 +1,32 @@
+Avg Execution Score = 
+AVERAGE('Fact_Store_Visit'[Execution Score])
+
+On-Shelf Compliance % = 
+DIVIDE(
+    SUM(Fact_Store_Visit[On_Shelf]),
+    COUNTROWS(Fact_Store_Visit),
+    0
+)
+
+Planogram Compliance % = 
+DIVIDE(
+    CALCULATE(COUNTROWS(Fact_Store_Visit), Fact_Store_Visit[Planogram_Compliance] = 1),
+    COUNTROWS(Fact_Store_Visit), 0
+)
+
+Sales Velocity = 
+DIVIDE(
+    SUM('Fact_Store_Visit'[Quantity]),               
+    DISTINCTCOUNT('Fact_Store_Visit'[Visit Date]),    
+    0                                                  )
+	
+	
+	Stockout Rate % = 
+DIVIDE(
+    COUNTROWS(
+        FILTER(Fact_Store_Visit, Fact_Store_Visit[Inventory_Level]= 0)
+    ),
+    COUNTROWS(Fact_Store_Visit),
+    0
+)
+
